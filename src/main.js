@@ -1,10 +1,10 @@
 
 class App {
 
-    run() {
-        const name = 'Build sandbox';
-
-        console.log(`This App\`s name is "${name}".`);
+    constructor() {
+        this.run = (name = 'B Sandbox') => {
+            console.log(`This App\`s name is "${name}".`);
+        };
     }
 }
 
