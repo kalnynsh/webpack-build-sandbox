@@ -3,10 +3,12 @@
         [
             "@babel/env",
             {
-                "targets": {
-                    "firefox": "66",
-                    "chrome": "54"
-                }
+                "debug": true,
+                "targets": [
+                    "last 3 chrome versions",
+                    "last 3 firefox versions",
+                    "last 3 ios versions"
+                ]
             }
         ]
     ],
