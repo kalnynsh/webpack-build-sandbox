@@ -1,6 +1,14 @@
 {
     "presets": [
-        "@babel/env"
+        [
+            "@babel/env",
+            {
+                "targets": {
+                    "firefox": "66",
+                    "chrome": "54"
+                }
+            }
+        ]
     ],
     "plugins": [
         "@babel/plugin-proposal-class-properties"
