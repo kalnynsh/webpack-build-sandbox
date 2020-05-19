@@ -1,7 +1,7 @@
 
 class App {
 
-    run = (name = 'B Sandbox') => {
+    run = async (name = 'B Sandbox') => {
         console.log(`This App\`s name is "${name}".`);
     };
 
@@ -15,4 +15,7 @@ class App {
 
 const app = new App();
 
-app.run();
+app
+    .run()
+    .then(() => console.log('Done'))
+    .catch(() => console.error('We have the problem:('));
