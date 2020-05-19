@@ -1,10 +1,11 @@
 {
   "name": "build-sandbox",
   "version": "1.0.0",
-  "description": "Sandbox for ReactJS building tools.",
+  "description": "Sandbox for Babel building tools.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir build"
   },
   "keywords": [
     "Webpack",
