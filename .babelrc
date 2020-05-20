@@ -8,6 +8,9 @@
                 "debug": true,
                 "modules": false
             }
+        ],
+        [
+            "@babel/react"
         ]
     ],
     "plugins": [

@@ -1,15 +1,13 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class App {
+const App = () => {
+    return (
+        <div>
+            <h1>React Application</h1>
+            <p>Test text</p>
+        </div>
+    );
+};
 
-    run = async (name = 'B Sandbox') => {
-        console.log(`This App\`s name is "${name}".`);
-        console.log([9, 8, [7, 6, [5, 4, [3, 2]]]].flat(Infinity))
-    };
-}
-
-const app = new App();
-
-app
-    .run()
-    .then(() => console.log('Done'))
-    .catch(() => console.error('We have the problem:('));
+ReactDOM.render(<App />, document.getElementById('root'));

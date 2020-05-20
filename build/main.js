@@ -1,14 +1,8 @@
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-class App {
-  constructor() {
-    _defineProperty(this, "run", async (name = 'B Sandbox') => {
-      console.log(`This App\`s name is "${name}".`);
-      console.log([9, 8, [7, 6, [5, 4, [3, 2]]]].flat(Infinity));
-    });
-  }
+const App = () => {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h1", null, "React Application"), /*#__PURE__*/React.createElement("p", null, "Test text"));
+};
 
-}
-
-const app = new App();
-app.run().then(() => console.log('Done')).catch(() => console.error('We have the problem:('));
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById('root'));
