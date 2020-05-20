@@ -3,14 +3,8 @@ class App {
 
     run = async (name = 'B Sandbox') => {
         console.log(`This App\`s name is "${name}".`);
+        console.log([9, 8, [7, 6, [5, 4, [3, 2]]]].flat(Infinity))
     };
-
-    /**  Classic version */
-    // constructor() {
-    //     this.run = (name = 'B Sandbox') => {
-    //         console.log(`This App\`s name is "${name}".`);
-    //     };
-    // }
 }
 
 const app = new App();
