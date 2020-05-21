@@ -1,5 +1,5 @@
 {
-   "short_name": "Build sendbox",
+  "short_name": "Build sendbox",
   "name": "Build sendbox with webpack",
   "icons": [
     {
@@ -11,6 +11,16 @@
       "src": "6568f940e41bd6df5f1159c57218e021.png",
       "type": "image/png",
       "sizes": "60x73"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x233"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x620"
     }
   ],
   "start_url": ".",
