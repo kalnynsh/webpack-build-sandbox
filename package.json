@@ -28,10 +28,11 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "babel src --out-dir build",
+    "start": "webpack",
+    "r-start": "react-scripts start",
+    "b-build": "babel src --out-dir build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eject": "react-scripts eject"
+    "r-eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
