@@ -1,0 +1,20 @@
+{
+   "short_name": "Build sendbox",
+  "name": "Build sendbox with webpack",
+  "icons": [
+    {
+      "src": "4609b5861232164b2bb990f05d2729f6.ico",
+      "sizes": "13x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "6568f940e41bd6df5f1159c57218e021.png",
+      "type": "image/png",
+      "sizes": "60x73"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
