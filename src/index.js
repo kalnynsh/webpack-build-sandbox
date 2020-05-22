@@ -1,7 +1,10 @@
 import Calculator from './calculator';
 import Logger from './logger';
 
-import logoUrl from './images/Ddev_logo_01_60x73.png';
+import logoUrl from './images/logo60x73.png';
+import './images/logo13x16.ico';
+import './images/logo192.png';
+import './images/logo512.png';
 
 const calculator = new Calculator();
 const logger = new Logger();

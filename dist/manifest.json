@@ -3,22 +3,22 @@
   "name": "Build sendbox with webpack",
   "icons": [
     {
-      "src": "4609b5861232164b2bb990f05d2729f6.ico",
+      "src": "images/logo13x16-58847893a.ico",
       "sizes": "13x16",
       "type": "image/x-icon"
     },
     {
-      "src": "6568f940e41bd6df5f1159c57218e021.png",
+      "src": "images/logo60x73-170827ce3.png",
       "type": "image/png",
       "sizes": "60x73"
     },
     {
-      "src": "logo192.png",
+      "src": "images/logo192-72dfa848f.png",
       "type": "image/png",
       "sizes": "192x233"
     },
     {
-      "src": "logo512.png",
+      "src": "images/logo512-5d545fcac.png",
       "type": "image/png",
       "sizes": "512x620"
     }

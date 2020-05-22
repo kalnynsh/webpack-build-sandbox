@@ -98,27 +98,51 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/images/Ddev_logo_01_13x16.ico":
-/*!*******************************************!*\
-  !*** ./src/images/Ddev_logo_01_13x16.ico ***!
-  \*******************************************/
+/***/ "./src/images/logo13x16.ico":
+/*!**********************************!*\
+  !*** ./src/images/logo13x16.ico ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"4609b5861232164b2bb990f05d2729f6.ico\");\n\n//# sourceURL=webpack:///./src/images/Ddev_logo_01_13x16.ico?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/logo13x16-58847893a.ico\");\n\n//# sourceURL=webpack:///./src/images/logo13x16.ico?");
 
 /***/ }),
 
-/***/ "./src/images/Ddev_logo_01_60x73.png":
-/*!*******************************************!*\
-  !*** ./src/images/Ddev_logo_01_60x73.png ***!
-  \*******************************************/
+/***/ "./src/images/logo192.png":
+/*!********************************!*\
+  !*** ./src/images/logo192.png ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6568f940e41bd6df5f1159c57218e021.png\");\n\n//# sourceURL=webpack:///./src/images/Ddev_logo_01_60x73.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/logo192-72dfa848f.png\");\n\n//# sourceURL=webpack:///./src/images/logo192.png?");
+
+/***/ }),
+
+/***/ "./src/images/logo512.png":
+/*!********************************!*\
+  !*** ./src/images/logo512.png ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/logo512-5d545fcac.png\");\n\n//# sourceURL=webpack:///./src/images/logo512.png?");
+
+/***/ }),
+
+/***/ "./src/images/logo60x73.png":
+/*!**********************************!*\
+  !*** ./src/images/logo60x73.png ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/logo60x73-170827ce3.png\");\n\n//# sourceURL=webpack:///./src/images/logo60x73.png?");
 
 /***/ }),
 
@@ -130,7 +154,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _calculator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calculator */ \"./src/calculator.js\");\n/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logger */ \"./src/logger.js\");\n/* harmony import */ var _images_Ddev_logo_01_13x16_ico__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/Ddev_logo_01_13x16.ico */ \"./src/images/Ddev_logo_01_13x16.ico\");\n/* harmony import */ var _images_Ddev_logo_01_60x73_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/Ddev_logo_01_60x73.png */ \"./src/images/Ddev_logo_01_60x73.png\");\n\n\n\n\n\n\n\nconst calculator = new _calculator__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nconst logger = new _logger__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\n\nlogger.log(\n    calculator.sum(43,96,71,75)\n);\n\nconst logoImg = document.createElement('img');\nlogoImg.src = _images_Ddev_logo_01_60x73_png__WEBPACK_IMPORTED_MODULE_3__[\"default\"];\n\ndocument\n    .getElementById('root')\n    .appendChild(logoImg)\n;\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _calculator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calculator */ \"./src/calculator.js\");\n/* harmony import */ var _logger__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logger */ \"./src/logger.js\");\n/* harmony import */ var _images_logo60x73_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/logo60x73.png */ \"./src/images/logo60x73.png\");\n/* harmony import */ var _images_logo13x16_ico__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/logo13x16.ico */ \"./src/images/logo13x16.ico\");\n/* harmony import */ var _images_logo192_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/logo192.png */ \"./src/images/logo192.png\");\n/* harmony import */ var _images_logo512_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./images/logo512.png */ \"./src/images/logo512.png\");\n\n\n\n\n\n\n\n\nconst calculator = new _calculator__WEBPACK_IMPORTED_MODULE_0__[\"default\"]();\nconst logger = new _logger__WEBPACK_IMPORTED_MODULE_1__[\"default\"]();\n\nlogger.log(\n    calculator.sum(43,96,71,75)\n);\n\nconst logoImg = document.createElement('img');\nlogoImg.src = _images_logo60x73_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\n\ndocument\n    .getElementById('root')\n    .appendChild(logoImg)\n;\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
