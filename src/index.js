@@ -4,8 +4,15 @@ import './main.css';
 
 const App = () => {
     return (
-        <div className="display-on-center">
-            <h1>I am the React App</h1>
+        <div className="container">
+            <h1>
+                <img
+                    src="images/logo60x73-170827ce3.png"
+                    alt="logo"
+                    className="logo-height-32 mr-1"
+                />
+                I am the React App
+            </h1>
             <p>Lorem ipsum.</p>
         </div>
     );
