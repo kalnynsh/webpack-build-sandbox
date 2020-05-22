@@ -32,7 +32,7 @@
   "scripts": {
     "start": "webpack",
     "r-start": "react-scripts start",
-    "b-build": "babel src --out-dir build",
+    "b-build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "r-eject": "react-scripts eject"
   },
