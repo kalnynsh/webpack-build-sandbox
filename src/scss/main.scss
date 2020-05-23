@@ -1,5 +1,7 @@
+@import 'variables';
+
 body {
-    background-color: rgb(217, 235, 243);
+    background-color: $body-bgcolor;
 }
 
 .container {
