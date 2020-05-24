@@ -57,6 +57,8 @@ module.exports = {
             buildDateTime: new Date().toISOString(),
             template: 'public/index.html'
         }),
-        new MiniCssExtractPlugin()
+        new MiniCssExtractPlugin({
+            filename: 'main-[hash:8].css'
+        })
     ]
 };
