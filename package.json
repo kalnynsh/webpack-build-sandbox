@@ -1,7 +1,7 @@
 {
   "name": "build-sandbox",
   "version": "1.0.0",
-  "description": "Sandbox for Babel building tools.",
+  "description": "Sandbox for Webpack building tools.",
   "main": "index.js",
   "keywords": [
     "Webpack",
@@ -37,7 +37,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "start": "webpack",
+    "start": "webpack-dev-server",
+    "build": "webpack --env.mode=production",
     "r-start": "react-scripts start",
     "b-build": "babel src --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1",

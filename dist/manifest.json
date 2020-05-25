@@ -1,6 +1,6 @@
 {
-  "short_name": "Build sendbox",
   "name": "Build sendbox with webpack",
+  "short_name": "Build sendbox",
   "icons": [
     {
       "src": "images/logo192.png",
